@@ -3,7 +3,7 @@ import './Product.css';
 
 const Product = (props) => {
     const { handleAddToCart,product } = props;
-    const { category, name, img, seller, price, ratings, quantity, shipping } = props.product;
+    const { category, name, img, seller, price, ratings, quantity, shipping } = product;
     return (
         <div className='product'>
             <img src={img} alt="" />
