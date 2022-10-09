@@ -1,9 +1,11 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 
 const Orders = () => {
+    const products = useLoaderData();
     return (
         <div>
-            <h2>THis is order section</h2>
+            <h2>THis is order section : {products.length}</h2>
         </div>
     );
 };
