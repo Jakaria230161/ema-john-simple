@@ -19,3 +19,15 @@
 .header a:hover{
     color: yellow;
 }
+
+.btn-logout{
+    margin-left: 10px;
+    transition-duration: 0.4s;
+    border: 2px solid gray;
+    border-radius: 12px;
+}
+
+.btn-logout:hover{
+    background-color: gray;
+    color: white;
+}
