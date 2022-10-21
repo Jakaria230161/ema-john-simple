@@ -10,6 +10,12 @@ Auth setup:
 
 /* 
 1. Create UserContext (auth context) : UserContext --> component name, provide UserContext provides AuthContext.
-2, set AuthContext.Provider
-3,Make sure you set the children
+2,create AuthContext
+3, set AuthContext.Provider
+4,Make sure you set the children
+5,export AuthContext to be used inside useContext hook
+6,get form data
+7, getAuth in the userContext
+8,
+
 */
